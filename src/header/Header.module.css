@@ -1,0 +1,38 @@
+*{
+    
+}
+
+#headerHeader{
+
+    display: flex;
+    background-color: inherit;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+#headerUl{
+
+    padding-top: 1px;
+    display: flex;
+    padding: 4px 4px 4px 4px;
+    cursor: pointer;
+
+}
+#headerLi:hover{
+
+    background-color: lightgreen;
+    font-size: 24px;
+
+}
+
+#headerNav{
+
+    display: flex;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
