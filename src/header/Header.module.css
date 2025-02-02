@@ -2,6 +2,33 @@
     
 }
 
+#html{
+    width: 100%;
+    height: fit-content;
+}
+
+#body{
+    width: 100%;
+    height: fit-content;
+}
+
+#header{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    position: sticky;
+}
+
+.headerNav{
+    width: 100%;
+    height: fit-content;
+}
+
+#headerNav{
+    width: 100%;
+    height: fit-content;
+}
+
 #headerHeader{
 
     display: flex;
@@ -15,18 +42,37 @@
 }
 
 #headerUl{
-
+    width: 100%;
+    height: fit-content;
     padding-top: 1px;
     display: flex;
     padding: 4px 4px 4px 4px;
     cursor: pointer;
+    background-color: rgba(39, 182, 175, 0.349);
 
 }
+
+#headerUl2{
+
+}
+
+#headerLi{
+    padding-left: 4px;
+}
+
+#headetLi2{
+    padding-left: 1px;
+}
+
 #headerLi:hover{
 
-    background-color: lightgreen;
+    background-color: black;
     font-size: 24px;
+}
 
+#headerLi2:hover{
+    background-color: black;
+    font-size: 24px;
 }
 
 #headerNav{

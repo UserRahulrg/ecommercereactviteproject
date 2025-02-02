@@ -11,20 +11,20 @@ const Header = ()=>{
             <div className="header" id={styles.headerHeader}>
               <div className="headerNav">
                 <nav id={styles.headerNav}>
+                <div className="headerUserDashboard" id={styles.headerUl}>
                   <ul id={styles.headerUl}>
 
                     <li type="none" id={styles.headerLi}><a href="">Home</a></li>
                     <li type="none" id={styles.headerLi}><a href="">Posts</a></li>
                     <li type="none" id={styles.headerLi}><a href="">Music</a></li>
-                    <li type="none" id={styles.headerLi}><a href="">Free EBooks</a></li>
+                    <li type="none" id={styles.headerLi}><a href="">EBooks</a></li>
                     <li type="none" id={styles.headerLi}><a href="">News</a></li>
-                    <li type="none" id={styles.headerLi}><a href="">Contact Us</a></li>
-                    <li type="none" id={styles.headerLi}><a href="">About Us</a></li>
+                    <li type="none" id={styles.headerLi}><a href="">ContactUs</a></li>
+                    <li type="none" id={styles.headerLi}><a href="">AboutUs</a></li>
                   </ul>
-                  <div className="headerUserDashboard" id={styles.headerUl}>
-                    <ul>
-                      <li type="none" id={styles.headerLi}><a href="" >Sign In</a></li>
-                      <li type="none" id={styles.headerLi}><a href="">Register</a></li>
+                    <ul id={styles.headerUl2}>
+                      <li type="none" id={styles.headerLi2}><a href="/signin" >SignIn</a></li>
+                      <li type="none" id={styles.headerLi2}><a href="/register">Register</a></li>
                     </ul>
                   </div>
                 </nav>
