@@ -17,8 +17,6 @@ export function App() {
         <Header id={styles.compHeader} />
         
         <RouterProvider router={MyRoutes}></RouterProvider>
-
-     
         
       </div>
   )

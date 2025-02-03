@@ -9,7 +9,7 @@ const Header = ()=>{
         <body id={styles.body}>
           <header id={styles.header}>
             <div className="header" id={styles.headerHeader}>
-              <div className="headerNav">
+              <div className="headerNav" id={styles.headerNav}>
                 <nav id={styles.headerNav}>
                 <div className="headerUserDashboard" id={styles.headerUl}>
                   <ul id={styles.headerUl}>
