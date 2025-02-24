@@ -16,7 +16,7 @@ const SignIn= ()=>{
                     <input type="password" /><br /><br />
                     <button type="submit" id={styles.formButton}>Submit</button>
                     <li type="none" ><a href="">Forget Password</a></li><br />
-                    <li type="none"><a href="">New User/Register Here</a></li>
+                    <li type="none"><a href="#">New User/Register Here</a></li>
                 </form>
             </div>
             <div id={styles.div3}>
